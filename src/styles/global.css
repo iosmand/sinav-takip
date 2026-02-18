@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --color-correct: #22c55e;
+  --color-correct-light: #4ade80;
+  --color-correct-bg: rgba(34, 197, 94, 0.12);
+  --color-correct-glow: rgba(34, 197, 94, 0.3);
+  --color-correct-border: #16a34a;
+  --color-wrong: #ef4444;
+  --color-wrong-light: #f87171;
+  --color-wrong-bg: rgba(239, 68, 68, 0.12);
+  --color-wrong-glow: rgba(239, 68, 68, 0.3);
+  --color-wrong-border: #dc2626;
+  --color-blank: #6b7280;
+  --color-blank-light: #9ca3af;
+  --color-blank-bg: rgba(107, 114, 128, 0.1);
+  --color-blank-glow: rgba(107, 114, 128, 0.2);
+  --color-blank-border: #4b5563;
+  --color-primary: #3b82f6;
+  --color-primary-light: #60a5fa;
+  --color-primary-hover: #2563eb;
+  --color-primary-bg: rgba(59, 130, 246, 0.12);
+  --color-primary-glow: rgba(59, 130, 246, 0.35);
+  --color-danger: #ef4444;
+  --color-danger-hover: #dc2626;
+
+  --bg-body: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --bg-glass: rgba(255, 255, 255, 0.72);
+  --bg-glass-strong: rgba(255, 255, 255, 0.85);
+  --bg-glass-subtle: rgba(255, 255, 255, 0.45);
+  --bg-input: rgba(255, 255, 255, 0.6);
+  --bg-hover: rgba(255, 255, 255, 0.5);
+
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-tertiary: #94a3b8;
+  --text-inverse: #ffffff;
+
+  --border-glass: rgba(255, 255, 255, 0.5);
+  --border-glass-strong: rgba(255, 255, 255, 0.7);
+
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --shadow-glass-hover: 0 12px 40px rgba(0, 0, 0, 0.12);
+  --shadow-btn: 0 4px 14px rgba(0, 0, 0, 0.1);
+  --shadow-glow-primary: 0 0 20px rgba(59, 130, 246, 0.35);
+
+  --blur-glass: blur(16px);
+  --blur-glass-strong: blur(24px);
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  --nav-height: 68px;
+
+  --bar-correct: rgba(34, 120, 80, 0.18);
+  --bar-correct-border: rgba(34, 120, 80, 0.45);
+  --bar-wrong: rgba(180, 60, 60, 0.18);
+  --bar-wrong-border: rgba(180, 60, 60, 0.45);
+  --bar-blank: rgba(100, 100, 115, 0.15);
+  --bar-blank-border: rgba(100, 100, 115, 0.4);
+  --bar-lbl: var(--text-secondary);
+}
+
+[data-theme='dark'] {
+  --color-primary: #06b6d4;
+  --color-primary-light: #22d3ee;
+  --color-primary-hover: #0891b2;
+  --color-primary-bg: rgba(6, 182, 212, 0.12);
+  --color-primary-glow: rgba(6, 182, 212, 0.3);
+
+  --color-correct: #34d399;
+  --color-correct-light: #6ee7b7;
+  --color-correct-bg: rgba(52, 211, 153, 0.12);
+  --color-correct-glow: rgba(52, 211, 153, 0.25);
+  --color-correct-border: #059669;
+  --color-wrong: #f87171;
+  --color-wrong-light: #fca5a5;
+  --color-wrong-bg: rgba(248, 113, 113, 0.12);
+  --color-wrong-glow: rgba(248, 113, 113, 0.25);
+  --color-wrong-border: #dc2626;
+  --color-blank: #9ca3af;
+  --color-blank-light: #d1d5db;
+  --color-blank-bg: rgba(156, 163, 175, 0.1);
+  --color-blank-border: #6b7280;
+  --color-danger: #f87171;
+  --color-danger-hover: #ef4444;
+
+  --bg-body: #0a0a0a;
+  --bg-glass: rgba(255, 255, 255, 0.05);
+  --bg-glass-strong: rgba(255, 255, 255, 0.08);
+  --bg-glass-subtle: rgba(255, 255, 255, 0.03);
+  --bg-input: rgba(255, 255, 255, 0.06);
+  --bg-hover: rgba(255, 255, 255, 0.08);
+
+  --text-primary: #f0f0f0;
+  --text-secondary: #a1a1aa;
+  --text-tertiary: #52525b;
+
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-glass-strong: rgba(255, 255, 255, 0.14);
+
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-glass-hover: 0 12px 40px rgba(0, 0, 0, 0.6);
+  --shadow-btn: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-glow-primary: 0 0 20px rgba(6, 182, 212, 0.3);
+
+  --bar-correct: rgba(52, 211, 153, 0.12);
+  --bar-correct-border: rgba(52, 211, 153, 0.35);
+  --bar-wrong: rgba(248, 113, 113, 0.12);
+  --bar-wrong-border: rgba(248, 113, 113, 0.35);
+  --bar-blank: rgba(156, 163, 175, 0.1);
+  --bar-blank-border: rgba(156, 163, 175, 0.3);
+  --bar-lbl: var(--text-secondary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg-body);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  min-height: 100dvh;
+  transition: color 0.3s;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: inherit;
+}
+
+select, input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
