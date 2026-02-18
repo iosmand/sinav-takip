@@ -13,5 +13,8 @@
     "astro": "^5.17.1",
     "svelte": "^5.51.3",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
   }
 }
