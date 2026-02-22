@@ -36,19 +36,14 @@ export const DEFAULT_CONFIGS: ExamConfig[] = [
 ];
 
 export const SUBJECTS = [
-  'Matematik',
-  'Geometri',
-  'Fizik',
-  'Kimya',
-  'Biyoloji',
   'Türkçe',
-  'Edebiyat',
-  'Tarih',
-  'Coğrafya',
-  'Felsefe',
-  'Din Kültürü',
-  'İngilizce',
-  'Diğer',
+  'Temel Matematik',
+  'Sosyal Bilimler',
+  'Fen Bilimleri',
+  'Türk Dili ve Edebiyatı',
+  'Sosyal Bilimler-1',
+  'Sosyal Bilimler-2',
+  'Matematik',
 ];
 
-export const APP_VERSION = '0.3.1';
+export const APP_VERSION = '0.3.2';

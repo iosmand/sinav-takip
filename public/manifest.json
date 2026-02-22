@@ -2,7 +2,7 @@
   "name": "Sınav Takip",
   "short_name": "Sınav Takip",
   "description": "Deneme sınavlarında doğru, yanlış ve boş sayarak net puanını hesapla",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8fafc",
